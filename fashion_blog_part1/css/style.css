@@ -1,0 +1,59 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+#container {
+	font-family: Lato;
+	font-style: italic;
+	color: #444;
+}
+
+h1 {
+	color: #A00;
+	text-align: left; 
+	font-size: 40px;
+}
+
+h2 {
+	color: #444;
+	text-align; left;
+	font-size: 20px;
+}
+
+.top nav {
+	color: #DDD;
+	font-size: 20px;
+
+}
+
+h3, h6 {
+	font-size: 20px;
+	color: #DDD;
+}
+
+h4 {
+	font-size: 20px;
+	color: #444;
+}
+
+h5 {
+	font-size: 20px;
+	color: #A00;
+	text-align: right;
+	padding-right: 10px;
+}
+
+nav {
+	color: #A00;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+.brooklyn {
+	border-bottom: #DDD;
+}
+
+.vintage {
+	border-bottom: #DDD;
+}
+
+

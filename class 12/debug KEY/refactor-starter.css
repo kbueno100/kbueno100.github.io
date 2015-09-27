@@ -1,0 +1,92 @@
+/*Example 1*/
+<select style="width: 150px;">
+     <option value="1">1</option>
+     <option value="2">2</option>
+</select>
+
+select {
+     width: 150px;
+}
+
+/*Example 2*/
+#buttons-wrapper, #buttons-wrapper>form {
+     padding:10px;
+     border:1px solid black;
+}
+#buttons-wrapper{
+     background:orange;
+}
+
+
+/*Example 3*/
+#image-to-vote-on {
+     margin-top: 50px;
+}
+
+
+/*Example 4*/
+/* Global */
+body{
+     background-image:url(../images/anImage.png);
+}
+a{
+     color:red;
+}
+
+a:hover{
+     color:purple;
+}
+
+/* Header */
+header{
+     height:80px;
+}
+header>ol{
+     list-style: none;
+}
+
+.list-item{
+     width:200px;
+}
+header li {
+     color: red;
+}
+
+#navigation-wrapper{
+     float:left;
+}
+
+/* Container */
+
+
+#container>.col{
+     width:50%;
+}
+
+#container>img{
+     border:1px solid red;
+}
+
+/* Footer */
+footer{
+     text-align: right;
+}
+
+footer>#company-name{
+     font-weight: bold;
+}
+
+
+/*Example 5
+$("#container").css({background:"red",fontSize:"12px",color:"purple",boxShadow:"0 0 10px #ccc";})
+
+$("#container").addClass("container-style");
+*/
+
+
+/*Example 6 */
+#myDiv{
+     margin:10px 0px 0px 20px;
+}
+
+

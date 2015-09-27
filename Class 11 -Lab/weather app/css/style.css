@@ -1,0 +1,25 @@
+body {
+  background: blue;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 2em;
+}
+
+.tempform {
+  background: rgba(0,0,0,.1);
+  border-radius: 3px;
+  position: relative;
+  padding: 50px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+}
+

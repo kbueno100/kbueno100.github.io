@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forms V1</title>
+</head>
+<body>
+    <h1>Course Application</h1>
+    <form>
+        <legend>Your Contact Info</legend>
+        <div class="form-row">
+            <label for="name">Your Name</label>
+            
+            <div class="name-fields">
+                <input type="text" name="name[first]"
+                placeholder="First" id="name">
+                <input type="text" name="name[last]" placeholder="Last">
+            </div>
+        </div><!-- close form row -->
+        <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <div class="phone-number-fields">
+                <input type="text" name="phone[area_code]" class="phone" max-length="3" id="phone"> &mdash;
+                <input type="text" name="phone[prefix]" class="phone" max-length="3"> &mdash;
+                <input type="text" name="phone[line-number]" class="phone" max-length="4">
+            </div>
+    
+        </div><!-- close form row -->
+        <div class="form-row">
+            <label for="address">Address</label>
+
+            <div class="address">
+                <input type="text" name="address[street]" placeholder="Street Address" id="name">
+
+                <input type="text" name="address[line2]" placeholder="Address Line 2"> 
+
+                <div class="address-fields">
+                   <input type="text" name="address[city]" placeholder="City">
+
+                    <input type="text" name="address[state]" placeholder="State">
+
+                    <input type="text" name="address[postal]" placeholder="Postal Code">
+                </div>
+            
+            </div>
+        </div>
+
+<legend>Skills &amp; Interests</legend>
+        <div class="form-row">
+            <label for="course">Course</label>
+            <div class="course-fields">
+            <select>
+            <option value="option1">Select One</option>
+            <option value="option2"disabled>Web Development</option>
+             <option value="option3">---Front-End</option>
+             <option value="option4">---Back-End</option>
+            <option value="option5" disabled>Design</option>
+            <option value="option6">--- Visual Design</option>
+            <option value="option7">--- User Experience</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="experience">Past Experience</label>
+            <textarea>
+            </textarea>
+        </div>
+
+
+
+<legend>Anything Else?</legend>
+        <div class="form-row">
+            <label for="extra">Referral</label>
+            <div class="referral-fields">
+            <select>
+            <option value="option1">None</option>
+            <option value="option2">Friend</option>
+             <option value="option3">Instructor</option>
+             <option value="option4">Online</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="comment">Comments</label>
+            <textarea>
+            </textarea>
+        </div>
+
+
+        </div>
+        <fieldset>
+            <input type="submit" value="Save Draft">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

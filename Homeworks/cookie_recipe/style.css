@@ -1,0 +1,39 @@
+/* This is just a comment using "Command slash" */
+  background: #FFE;
+  margin: 0;
+  border: 3px solid black;
+  padding: 30px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+h3 {
+   color: #887;
+  font-style: italic;
+}
+
+h4 {
+  color: #887;
+}
+
+p{
+  font-family: Helvetica,Arial, sans-serif;
+  font-size: 1em;
+  color: rgba(100,122,250,.50);
+}
+
+a {
+  color: #900;
+}
+
+img {
+	border: 3px solid black;
+}
+
+

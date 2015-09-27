@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Landing Page</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+ 	 <legend>Register Now!</legend>
+        <div class="form-row">
+            <label for="name">Your Name</label>
+            <span class="name-fields">
+                <input type="text" name="name[first]"
+                placeholder="John Doe" id="name">
+            </span>
+        </div>
+
+ 		<div class="form-row">
+            <label for="email">E-mail</label>
+
+            <span class="email">
+                <input type="text" name="email" placeholder="hello@gmail.com" id="email">
+             </span>
+        </div><!-- close form row -->
+        <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <span class="phone-number-fields">
+                <input type="text" name="phone[area_code]" class="phone" id="phone" placeholder="415-123-4567">
+                
+            </span>
+    
+        </div><!-- close form row -->
+        <div class="form-row">
+            <label for="state">State</label>
+            <span class="state">
+            <select>
+	             <option value="option1">Alabama</option>
+	             <option value="option2">New York</option>
+	             <option value="option3">Boring State</option>
+	             <option value="option4">Not here</option>
+            </select>
+            </span>
+        </div>
+        <div class="form-row">
+            <label for="password">Password</label>
+            <span class="password">
+            	<input type="text" name="password" id="password">
+            </span>
+        </div>
+        <div class="form-row">
+            <label for="service">Which service are you interested in?</label>
+            <span class="referral-fields">
+	             <input type="radio" name="options" value="relaxing" checked>Relaxing</input>
+	             <input type="radio" name="options" value="email" checked>Email</input>
+	             <input type="radio" name="options" value="phone" checked>Phone</input>
+            </span>
+        </div>
+        <div class="form-row">
+           <input type="checkbox" name="agreement" value="agreement">I agree to the terms</input>
+        </div>
+		<section id="main">
+			<div class="container">
+				<section id="contact">
+					<a class="button blue" href="#">Register Now!</a>
+				</section>
+			</div>
+		</section>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
